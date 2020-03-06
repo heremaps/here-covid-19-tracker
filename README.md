@@ -10,14 +10,15 @@ This repository is organized into two separate sections. There is the "covid-map
 
 Requirements to get started.
 - An account with [Netlify](https://www.netlify.com) to host the serverless function
-- An account with HERE Developer Portal 
+- An account with [HERE Developer Portal](https://developer.here.com/?cid=Freemium-DeveloperPortalTutorial-PJ-0-Javascript-DevPortal-&utm_source=DeveloperPortalTutorial&utm_medium=referral&utm_campaign=Webinar_IOT_2020_Golden-Age-Location-Enabled-AI-Jan-16)
 - 2 HERE Data Hub Spaces to host the data
 
 How to get in touch
-- Join our Slack Channel #covid-19-map
-- Follow us on Twitter
-- Join our Twitch Streams
-- Subscribe on YouTube
+- [Join our Slack Channel](http://t.her.is/slack) #covid-19-map
+- [Follow us on Twitter](https://twitter.com/heredev)
+- [Join our Twitch Streams](https://www.twitch.tv/heredev)
+- [Subscribe on YouTube](https://www.youtube.com/user/heremaps/playlists?view=50&sort=dd&shelf_id=10)
+
 
 # License
 
