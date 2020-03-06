@@ -1,0 +1,31 @@
+{
+  "name": "@here/covid-scraper",
+  "version": "1.0.0",
+  "author": {
+    "name": "HERE Europe B.V.",
+    "url": "https://here.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "d3-dsv": "^1.2.0",
+    "dayjs": "^1.8.20",
+    "googleapis": "39",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  },
+  "keywords": [
+    "HERE",
+    "COVID-19",
+    "tracker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heremaps/here-covid-19-tracker",
+    "directory": "cvscraper"
+  },
+  "bugs": {
+    "url": "https://github.com/heremaps/here-covid-19-tracker/issues"
+  },
+  "private": true
+}

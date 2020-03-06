@@ -1,0 +1,75 @@
+{
+  "name": "@here/covid-19-tracker",
+  "description": "HERE COVID-19 (Coronavirus) tracker",
+  "version": "1.0.0",
+  "author": {
+    "name": "HERE Europe B.V.",
+    "url": "https://here.com"
+  },
+  "license": "MIT AND OFL-1.1",
+  "dependencies": {
+    "@ant-design/colors": "^3.2.2",
+    "@chakra-ui/core": "^0.5.2",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "@vx/scale": "^0.0.193",
+    "@vx/shape": "^0.0.193",
+    "d3-array": "^2.4.0",
+    "d3-format": "^1.4.3",
+    "d3-scale": "^3.2.1",
+    "dayjs": "^1.8.19",
+    "dotenv": "^8.2.0",
+    "downshift": "^4.0.8",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.18.6",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-emotion": "^4.1.16",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-offline": "^3.0.26",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-sharp": "^2.3.6",
+    "ibm-design-colors": "^2.0.4",
+    "leaflet": "^1.6.0",
+    "lodash": "^4.17.15",
+    "material-ui-colors": "^1.0.0",
+    "open-color": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-simple-maps": "^1.0.0-beta.0",
+    "swr": "^0.1.16",
+    "tangram": "^0.20.0",
+    "use-debounce": "^3.3.0",
+    "zustand": "^2.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "HERE",
+    "COVID-19",
+    "tracker"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop --host 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "buildPrefixed": "gatsby build --prefix-paths",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heremaps/here-covid-19-tracker"
+    "directory": "covid-map"
+  },
+  "bugs": {
+    "url": "https://github.com/heremaps/here-covid-19-tracker/issues"
+  },
+  "private": true
+}
