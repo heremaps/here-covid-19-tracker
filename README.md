@@ -4,6 +4,8 @@ This repository is the code used to power the [HERE-hosted COVID-19](https://dev
 
 Please note that with the ever-evolving situation of the COVID-19 virus, parts of this map may break from time to time and we will do our best to keep up with the changes.
 
+*Update: March 3, 2020 - The Johns Hopkins University(JHU) datasource for this map are being refactored. We plan to publish an update to the scraper found in this repository once the the refactoring is complete.*
+
 Please fork at will and let us know what you come up with. You can reach out to us on our Slack channel #covid-19-map. We hope that you find this reference useful.
 
 This repository is organized into two separate sections. There is the "covid-map" which is a [Gatsby-based](https://www.gatsbyjs.org) visualization of the data that is collected with the "covid-scraper" utility. The "covid-scraper" is a serverless function that is hosted over at [Netlify](https://www.netlify.com). This function then updates a "HERE Data Hub" space (think of it like a database for Geo-spatial data). When the map loads, it reads from the HERE Data Hub space and presents the latest snapshot of information.
