@@ -80,15 +80,16 @@ const Listing = ({ rows }) => {
       sum: grouped[d].reduce((acc, cur) => acc + parseInt(cur.properties[currentDate] || 0), 0),
       sum2: grouped[d].reduce((acc, cur) => acc + parseInt(cur.properties["deaths_" + currentDate] || 0), 0),
       sum3: grouped[d].reduce((acc, cur) => acc + parseInt(cur.properties["recoveries_" + currentDate] || 0), 0),
-      items: grouped[d].sort((a, b) => b.properties[currentDate] - a.properties[currentDate]),
+      items: grouped[d].filter(d => d.properties[currentDate]).sort((a, b) => b.properties[currentDate] - a.properties[currentDate]),
     }
-  }).sort((a, b) => {
-    return tabIndex === 0
-      ? b.sum - a.sum
-      : tabIndex === 1
-        ? b.sum2 - a.sum2
-        : b.sum3 - a.sum3
-  })
+  }).filter(d => d.sum)
+    .sort((a, b) => {
+      return tabIndex === 0
+        ? b.sum - a.sum
+        : tabIndex === 1
+          ? b.sum2 - a.sum2
+          : b.sum3 - a.sum3
+    })
 
   return (
     <div>
