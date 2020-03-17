@@ -1,10 +1,10 @@
 # HERE-COVID-2019
 
+*Update: March 17, 2020 - The production version of this map has been updated and refined to listing countries only. We will publish the updated GitHub repo as soon as possible.*
+
 This repository is the code used to power the [HERE-hosted COVID-19](https://developer.here.com/coronavirus/) map. HERE is releasing this code to the community so that any developer may iterate, improve or even recommend features/functionality through Pull Requests.
 
 Please note that with the ever-evolving situation of the COVID-19 virus, parts of this map may break from time to time and we will do our best to keep up with the changes.
-
-*Update: March 3, 2020 - The Johns Hopkins University(JHU) datasource for this map are being refactored. We plan to publish an update to the scraper found in this repository once the the refactoring is complete.*
 
 Please fork at will and let us know what you come up with. You can reach out to us on our Slack channel #covid-19-map. We hope that you find this reference useful.
 
